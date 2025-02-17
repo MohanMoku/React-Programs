@@ -1,0 +1,48 @@
+.Exp2 {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Exp2 > div1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 100px;
+    height: 20vh;
+    font-size: 25px;
+}
+
+.Exp2 > div1 > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.Exp2 > div1 > img:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Exp2>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    font-size: 18px;
+    height: 75vh;
+}
+
+/* .Exp2 >  */
+
+.Exp2 > footer {
+    height: 5vh;
+    font-size: 14px;
+    color: grey;
+}
