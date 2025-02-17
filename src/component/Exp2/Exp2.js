@@ -4,7 +4,7 @@ import Footer from './Footer'
 import './Exp2.css'
 
 const symbol = String.fromCharCode(169)
-const title = '2. React Props Demonstration'
+const title = 'Exp2 React Props Demonstration'
 const tagline = 'Building dynamic apps with React'
 const copyright = symbol + ' 2025 React Lab. All Rights Reserved.'
 

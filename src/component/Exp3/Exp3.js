@@ -34,7 +34,7 @@ const Exp3 = () => {
         <div className='Exp3'>
             <div1>
                 <img src={homeImg} alt="home" onClick={goHome} />
-                <h1>3. Counter Application</h1>
+                <h1>Exp3 Counter Application</h1>
             </div1>
 
             <div2>
