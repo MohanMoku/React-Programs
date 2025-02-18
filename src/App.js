@@ -6,6 +6,7 @@ import Exp1 from './component/Exp1/Exp1'
 import Exp2 from './component/Exp2/Exp2'
 import Exp3 from './component/Exp3/Exp3'
 import Exp4 from './component/Exp4/Exp4'
+import Exp5 from './component/Exp5/Exp5'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route exact path='/experiment-2' element={<Exp2 />} />
           <Route exact path='/experiment-3' element={<Exp3 />} />
           <Route exact path='/experiment-4' element={<Exp4 />} />
+          <Route exact path='/experiment-5' element={<Exp5 />} />
         </Routes>
       </BrowserRouter>
 
