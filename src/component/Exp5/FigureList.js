@@ -1,7 +1,7 @@
 import React from 'react'
 import BasicFigure from './BasicFigure'
 
-const FigureList = (figures, onRemoveFigure) => {
+const FigureList = ({figures, onRemoveFigure}) => {
     return (
         <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
             {figures.map((figure) => (
