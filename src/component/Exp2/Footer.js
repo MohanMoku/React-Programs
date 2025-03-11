@@ -1,11 +1,7 @@
 import React from 'react'
 
-const Footer = ({copyright}) => {
-    return (
-        <footer>
-            {copyright}
-        </footer>
-    )
+const Footer = (props) => {
+    return <footer>{props.copyright}</footer>
 }
 
 export default Footer

@@ -1,9 +1,207 @@
-.AppBody {
-  height: 100vh;
-  width: 100vw;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #212121;
+  color: white;
+  height: 100%;
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div1{
+  margin: 40px;
+  padding-top: 30px;
+  height: 400px;
+  width: 400px;
+  display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 80px;
+  border: black;
+  color: white;
+  background-color:rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(255, 255, 255);
+  overflow: hidden;
+}
+div1:hover{
+  transform: scale(1.03);
+  transition: 1s;
+}
+div1 > h1:nth-child(1){
+  color: aqua;
+}
+div1 > input {
+  width: 70%;
+  height: 10%;
+  padding: 0 10px;
+  border-radius: 15px;
+}
+div1 > .output1{
+  text-align: center;
+  width: 80%;
+  overflow: auto;
+}
+
+div2{
+  margin: 40px;
+  padding-top: 30px;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color:rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  position: relative;
+}
+div2:hover{
+  transform: scale(1.03);
+  transition: 1s;
+}
+div2 > h1 {
+  color: aqua;
+}
+div2 > p {
+  position: absolute;
+  top: 50%;
+}
+div2 > footer{
+  color: #dac021 ;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 5% 0;
+}
+
+div3{
+  margin: 40px;
+  padding-top: 30px;
+  height: 400px;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color:rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  position: relative;
+}
+div3:hover{
+  transform: scale(1.03);
+  transition: 1s;
+}
+div3 > h1{
+  color: aqua;
+}
+div3 > h2{
+  margin: 50px 0 30px 0;
+}
+div3 > div31{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+div3 > div31 > button{
+  cursor: pointer;
+  margin: 0 0 30px 0;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+}
+div3 > div32 > label{
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
+div3 > div32 > input{
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div4{
+  margin: 40px;
+  padding: 30px 0;
+  min-height: 200px;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color:rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
+div4:hover{
+  transform: scale(1.03);
+  transition: 1s;
+}
+div4 > h1{
+  color: aqua;
+}
+div4 > div41 > input{
+  height: 30px;
+  margin: 20px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+div4 > div41 > button{
+  height: 30px;
+  width: 90px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(65, 236, 65);
+  border-radius: 10px;
+  cursor: pointer;
+}
+div4 > ul {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+div4 > ul > li{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  width: 80%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+div4 > ul > li > span{
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+div4 > ul > li > button{
+  padding: 2px 4px;
+  color: white;
+  background-color: #f53b2d;
+  border-radius: 5px;
+  cursor: pointer;
 }

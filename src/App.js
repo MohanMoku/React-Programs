@@ -1,31 +1,18 @@
-import './App.css'
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './component/Home/Home'
-import Exp1 from './component/Exp1/Exp1'
-import Exp2 from './component/Exp2/Exp2'
-import Exp3 from './component/Exp3/Exp3'
-import Exp4 from './component/Exp4/Exp4'
-import Exp5 from './component/Exp5/Exp5'
+import './App.css';
+import Prgm1 from './component/Exp1/Prgm1'
+import Prgm2 from './component/Exp2/Prgm2'
+import Prgm3 from './component/Exp3/Prgm3'
+import Prgm4 from './component/Exp4/Prgm4'
 
-
-const App = () => {
-
+function App() {
   return (
-    <div className='AppBody'>
-      <BrowserRouter>
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route exact path='/experiment-1' element={<Exp1 />} />
-          <Route exact path='/experiment-2' element={<Exp2 />} />
-          <Route exact path='/experiment-3' element={<Exp3 />} />
-          <Route exact path='/experiment-4' element={<Exp4 />} />
-          <Route exact path='/experiment-5' element={<Exp5 />} />
-        </Routes>
-      </BrowserRouter>
-
+    <div className="App">
+      <Prgm1 />
+      <Prgm2 />
+      <Prgm3 />
+      <Prgm4 />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
