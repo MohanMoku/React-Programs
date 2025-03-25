@@ -205,3 +205,63 @@ div4 > ul > li > button{
   border-radius: 5px;
   cursor: pointer;
 }
+
+div5 {
+  margin: 40px;
+  padding: 30px 10px;
+  min-height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color: rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
+div5>h1 {
+  color: aqua;
+}
+div5>button {
+  margin: 20px;
+  padding: 5px;
+  font-size: 13px;
+  border: 2px solid #05f539;
+  border-radius: 10px;
+  background-color: #2bff00;
+  cursor: pointer;
+}
+div5>button:hover {
+  transform: scale(0.95);
+}
+div51{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+div52{
+  border: 3px solid rgb(122, 234, 241);
+  border-radius: 15px;
+  text-align: center;
+  padding: 8px;
+  color: cyan;
+}
+div52>img:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+div52>button{
+  margin: 2px;
+  padding: 3px;
+  font-size: 13px;
+  border: 2px solid #f50505;
+  border-radius: 10px;
+  background-color: #fc4040;
+  cursor: pointer;
+  font-weight: bold;
+}
+div52>button:hover{
+  transform: scale(0.95);
+}
