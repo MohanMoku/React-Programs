@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #212121;
   color: white;
   height: 100%;
@@ -13,14 +14,15 @@ body{
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
 }
-.App{
+
+.App {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-div1{
+div1 {
   margin: 40px;
   padding-top: 30px;
   height: 400px;
@@ -31,31 +33,35 @@ div1{
   gap: 80px;
   border: black;
   color: white;
-  background-color:rgb(47, 42, 41);
+  background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(255, 255, 255);
   overflow: hidden;
 }
-div1:hover{
+
+div1:hover {
   transform: scale(1.03);
   transition: 1s;
 }
-div1 > h1:nth-child(1){
+
+div1>h1:nth-child(1) {
   color: aqua;
 }
-div1 > input {
+
+div1>input {
   width: 70%;
   height: 10%;
   padding: 0 10px;
   border-radius: 15px;
 }
-div1 > .output1{
+
+div1>.output1 {
   text-align: center;
   width: 80%;
   overflow: auto;
 }
 
-div2{
+div2 {
   margin: 40px;
   padding-top: 30px;
   height: 400px;
@@ -64,30 +70,34 @@ div2{
   align-items: center;
   flex-direction: column;
   border: black;
-  background-color:rgb(47, 42, 41);
+  background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
   position: relative;
 }
-div2:hover{
+
+div2:hover {
   transform: scale(1.03);
   transition: 1s;
 }
-div2 > h1 {
+
+div2>h1 {
   color: aqua;
 }
-div2 > p {
+
+div2>p {
   position: absolute;
   top: 50%;
 }
-div2 > footer{
-  color: #dac021 ;
+
+div2>footer {
+  color: #dac021;
   position: absolute;
   bottom: 0;
   padding: 0 0 5% 0;
 }
 
-div3{
+div3 {
   margin: 40px;
   padding-top: 30px;
   height: 400px;
@@ -96,28 +106,33 @@ div3{
   align-items: center;
   flex-direction: column;
   border: black;
-  background-color:rgb(47, 42, 41);
+  background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
   position: relative;
 }
-div3:hover{
+
+div3:hover {
   transform: scale(1.03);
   transition: 1s;
 }
-div3 > h1{
+
+div3>h1 {
   color: aqua;
 }
-div3 > h2{
+
+div3>h2 {
   margin: 50px 0 30px 0;
 }
-div3 > div31{
+
+div3>div31 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-div3 > div31 > button{
+
+div3>div31>button {
   cursor: pointer;
   margin: 0 0 30px 0;
   font-weight: bold;
@@ -126,12 +141,14 @@ div3 > div31 > button{
   height: 40px;
   border-radius: 15px;
 }
-div3 > div32 > label{
+
+div3>div32>label {
   font-size: 16px;
   padding: 10px;
   font-weight: bold;
 }
-div3 > div32 > input{
+
+div3>div32>input {
   width: 70px;
   height: 30px;
   border-radius: 10px;
@@ -139,7 +156,7 @@ div3 > div32 > input{
   font-weight: bold;
 }
 
-div4{
+div4 {
   margin: 40px;
   padding: 30px 0;
   min-height: 200px;
@@ -148,25 +165,29 @@ div4{
   align-items: center;
   flex-direction: column;
   border: black;
-  background-color:rgb(47, 42, 41);
+  background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
 }
-div4:hover{
+
+div4:hover {
   transform: scale(1.03);
   transition: 1s;
 }
-div4 > h1{
+
+div4>h1 {
   color: aqua;
 }
-div4 > div41 > input{
+
+div4>div41>input {
   height: 30px;
   margin: 20px 10px;
   font-size: 15px;
   border-radius: 10px;
   padding: 0 10px;
 }
-div4 > div41 > button{
+
+div4>div41>button {
   height: 30px;
   width: 90px;
   font-size: 15px;
@@ -175,7 +196,8 @@ div4 > div41 > button{
   border-radius: 10px;
   cursor: pointer;
 }
-div4 > ul {
+
+div4>ul {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -184,7 +206,8 @@ div4 > ul {
   list-style: none;
   gap: 15px;
 }
-div4 > ul > li{
+
+div4>ul>li {
   color: aliceblue;
   display: flex;
   justify-content: space-between;
@@ -193,12 +216,14 @@ div4 > ul > li{
   border: 1px solid white;
   border-radius: 5px;
 }
-div4 > ul > li > span{
+
+div4>ul>li>span {
   font-weight: bold;
   color: black;
   cursor: pointer;
 }
-div4 > ul > li > button{
+
+div4>ul>li>button {
   padding: 2px 4px;
   color: white;
   background-color: #f53b2d;
@@ -219,9 +244,11 @@ div5 {
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
 }
+
 div5>h1 {
   color: aqua;
 }
+
 div5>button {
   margin: 20px;
   padding: 5px;
@@ -231,28 +258,33 @@ div5>button {
   background-color: #2bff00;
   cursor: pointer;
 }
+
 div5>button:hover {
   transform: scale(0.95);
 }
-div51{
+
+div51 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
 }
-div52{
+
+div52 {
   border: 3px solid rgb(122, 234, 241);
   border-radius: 15px;
   text-align: center;
   padding: 8px;
   color: cyan;
 }
-div52>img:hover{
+
+div52>img:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
-div52>button{
+
+div52>button {
   margin: 2px;
   padding: 3px;
   font-size: 13px;
@@ -262,6 +294,86 @@ div52>button{
   cursor: pointer;
   font-weight: bold;
 }
-div52>button:hover{
+
+div52>button:hover {
   transform: scale(0.95);
+}
+
+div6 {
+  margin: 40px;
+  padding: 30px 10px;
+  min-height: 200px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color: rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
+
+div6:hover {
+  transform: scale(1.03);
+  /* transition: 1s; */
+}
+
+div6>h1 {
+  color: aqua;
+  margin: 0 0 20px 0;
+}
+
+div6>form {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div61 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+div612 {
+  min-width: 300px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid white;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+div6>form>button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(51, 190, 233);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: rgb(255, 65, 65);
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.showPassword-button {
+  color: rgb(53, 105, 248);
+  cursor: pointer;
+}
+
+div6>form>div61>div612>input {
+  padding: 1px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #ffffff00;
+  margin: 0 0 0 5px;
+  color: white;
 }
