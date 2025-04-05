@@ -377,3 +377,76 @@ div6>form>div61>div612>input {
   margin: 0 0 0 5px;
   color: white;
 }
+
+div7 {
+  margin: 40px;
+  padding: 30px 10px;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color: rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
+
+div7:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
+div7>h1 {
+  color: aqua;
+  margin: 0 0 20px 0;
+}
+
+div7>button {
+  margin: 0 0 20px 0;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 2px solid #05f539;
+  border-radius: 10px;
+  background-color: #2bff00;
+  cursor: pointer;
+}
+
+div7>button:hover {
+  transform: scale(0.95);
+}
+
+div71 {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+div711 {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div711>img {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+div712 {
+  width: 75%;
+  text-align: center;
+  align-items: center;
+}
