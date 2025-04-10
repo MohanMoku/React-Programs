@@ -245,6 +245,11 @@ div5 {
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
 }
 
+div5:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
 div5>h1 {
   color: aqua;
 }
@@ -440,4 +445,128 @@ div712 {
   width: 70%;
   text-align: center;
   align-items: center;
+}
+
+div8 {
+  margin: 40px;
+  padding: 30px 10px;
+  min-height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color: rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
+
+div8:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
+div8>h1 {
+  color: aqua;
+  margin: 0 0 20px 0;
+}
+
+div8>form {
+  width: 80%;
+  border: 1px solid rgb(39, 173, 226);
+  border-radius: 15px;
+  display: flex;
+  background: linear-gradient(45deg,#8eff93, #00ffbf);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  gap: 20px;
+}
+
+div8>form>table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div8>form>table th {
+  padding: 5px 15px;
+}
+
+div8>form>table th {
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+}
+
+div8>form>table input,
+div8>form>table textarea {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border-color 0.2s;
+}
+
+div8>form>table input:focus,
+div8>form>table textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  background-color: #fff;
+}
+
+div8>form>button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(51, 190, 233);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div81 {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div81>button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(233, 103, 51);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div8>ul {
+  width: 100%;
+  list-style: none;
+  padding: 5px;
+}
+
+div8>ul>li {
+  padding: 5px;
+  border: 1px solid #30b2c9;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div8>ul>li>button{
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
 }
