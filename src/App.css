@@ -476,7 +476,7 @@ div8>form {
   border: 1px solid rgb(39, 173, 226);
   border-radius: 15px;
   display: flex;
-  background: linear-gradient(45deg,#8eff93, #00ffbf);
+  background: linear-gradient(45deg, #8eff93, #00ffbf);
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -563,7 +563,7 @@ div8>ul>li {
   justify-content: space-between;
 }
 
-div8>ul>li>button{
+div8>ul>li>button {
   padding: 5px 10px;
   font-size: 14px;
   font-weight: 500;
@@ -571,3 +571,52 @@ div8>ul>li>button{
   cursor: pointer;
 }
 
+div9 {
+  margin: 40px;
+  padding: 30px 10px;
+  min-height: 350px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color: rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
+
+div9:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+
+div9 h1 {
+  color: aqua;
+  margin: 0 0 20px 0;
+}
+
+div9>div91 {
+  width: 100%;
+}
+
+div9>div91>div92 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+div10 {
+  margin: 40px;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black;
+  background-color: rgb(47, 42, 41);
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(252, 252, 252);
+}
