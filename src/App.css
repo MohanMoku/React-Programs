@@ -422,31 +422,22 @@ div71 {
   height: 70%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   gap: 10px;
   border: 1px solid white;
   border-radius: 10px;
-  padding: 10px;
 }
 
 div711 {
-  width: 180px;
-  height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-div711>img {
-  height: 80%;
-  width: 80%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
   border-radius: 50%;
-  object-fit: contain;
 }
 
 div712 {
-  width: 75%;
+  width: 70%;
   text-align: center;
   align-items: center;
 }
