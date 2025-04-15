@@ -455,7 +455,7 @@ div712 {
 div8 {
   margin: 40px;
   padding: 30px 10px;
-  min-height: auto;
+  min-height: 350px;
   width: auto;
   display: flex;
   align-items: center;
