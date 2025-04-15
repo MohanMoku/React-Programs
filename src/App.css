@@ -37,11 +37,11 @@ div1 {
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(255, 255, 255);
   overflow: hidden;
+  transition: 1s;
 }
 
 div1:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div1>h1:nth-child(1) {
@@ -74,11 +74,11 @@ div2 {
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
   position: relative;
+  transition: 1s;
 }
 
 div2:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div2>h1 {
@@ -110,11 +110,11 @@ div3 {
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
   position: relative;
+  transition: 1s;
 }
 
 div3:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div3>h1 {
@@ -168,11 +168,11 @@ div4 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
 }
 
 div4:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div4>h1 {
@@ -243,11 +243,11 @@ div5 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
 }
 
 div5:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div5>h1 {
@@ -316,11 +316,11 @@ div6 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
 }
 
 div6:hover {
   transform: scale(1.03);
-  /* transition: 1s; */
 }
 
 div6>h1 {
@@ -395,11 +395,11 @@ div7 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
 }
 
 div7:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div7>h1 {
@@ -435,10 +435,15 @@ div71 {
 }
 
 div711 {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   overflow: hidden;
   border-radius: 50%;
+  transition: 1s;
+}
+
+div711:hover {
+  transform: scale(1.15);
 }
 
 div712 {
@@ -459,11 +464,11 @@ div8 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
 }
 
 div8:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div8>h1 {
@@ -583,11 +588,11 @@ div9 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
 }
 
 div9:hover {
   transform: scale(1.03);
-  transition: 1s;
 }
 
 div9 h1 {
@@ -610,8 +615,8 @@ div9>div91>div92 {
 
 div10 {
   margin: 40px;
-  height: 350px;
-  width: 400px;
+  min-height: 350px;
+  width: 800px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -619,4 +624,79 @@ div10 {
   background-color: rgb(47, 42, 41);
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgb(252, 252, 252);
+  transition: 1s;
+}
+
+div10:hover {
+  transform: scale(1.03);
+}
+
+div10 h1 {
+  color: aqua;
+}
+
+div101 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+div101>table,
+div101>table th,
+div101>table td {
+  border: 1px solid white;
+}
+
+div101>table th,
+div101>table td {
+  padding: 5px 30px;
+}
+
+div1011 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+div1011>input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+div1011>button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(51, 190, 233);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div1011>button:hover {
+  transform: scale(0.95);
+}
+
+div101>table th{
+  font-weight: 900;
+  background-color: #6ffad7;
+  color: black;
+}
+
+div101>table tr:nth-child(even){
+  background-color: #13efff;
+  color: black;
+}
+
+div101>table tr:nth-child(odd){
+  background-color: #7aa3fc;
+  color: black;
 }

@@ -8,7 +8,7 @@ import Prgm6 from './component/Exp6/Prgm6'
 import Prgm7 from './component/Exp7/Prgm7'
 import Prgm8 from './component/Exp8/Prgm8'
 import Prgm9 from './component/Exp9/Prgm9'
-// import Prgm10 from './component/Exp10/Prgm10'
+import Prgm10 from './component/Exp10/Prgm10'
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Prgm7 />
       <Prgm8 />
       <Prgm9 />
-      {/* <Prgm10 /> */}
+      <Prgm10 />
     </div>
   );
 }
