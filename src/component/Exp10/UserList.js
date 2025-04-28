@@ -22,25 +22,30 @@ export default class UserList extends Component {
     fetchUsers = () => {
         this.setState({ loading: true, error: null })
 
-        fetch('https://randomuser.me/api/?results=10&nat=IN')
+        fetch('https://dummyjson.com/users?limit=10')
             .then((response) => response.json())
             .then((data) => {
                 this.setState({
-                    users: data.results,
-                    allUsers: data.results,
+                    users: data.users,
+                    allUsers: data.users,
                     loading: false
                 })
+                console.log(data);
+                
             })
             .catch((error) => {
                 this.setState({ error: 'Failed to load Users', loading: false })
             })
+        
+            console.log(this.state);
+            
     }
 
     filterUsers = () => {
         const query = this.state.searchQuery.toLowerCase()
         this.setState((prevState) => ({
             users: prevState.allUsers.filter((user) =>
-                `${user.name.first} ${user.name.last}`
+                `${user.firstName} ${user.lastName}`
                     .toLowerCase()
                     .includes(query)
             )
@@ -92,9 +97,9 @@ export default class UserList extends Component {
                             <tbody>
                                 {users.map((user, index) => (
                                     <tr key={index}>
-                                        <td>{`${user.name.first} ${user.name.last}`}</td>
+                                        <td>{`${user.firstName} ${user.lastName}`}</td>
                                         <td>{user.email}</td>
-                                        <td>{`${user.location.city} ${user.location.state}`}</td>
+                                        <td>{`${user.address.city} ${user.address.state}`}</td>
                                     </tr>
                                 ))}
                             </tbody>
