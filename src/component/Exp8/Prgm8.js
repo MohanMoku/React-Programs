@@ -12,10 +12,7 @@ function Prgm8() {
     }
 
     const toggleTaskCompletion = (index) => {
-        setTasks((prevTasks) =>
-            prevTasks.map((task, i) =>
-                i === index ? { ...task, completed: !task.completed } : task)
-        )
+        setTasks( tasks.map((task, i) => i === index ? { ...task, completed: !task.completed } : task) )
     }
 
     const filteredTasks = tasks.filter((task) => {

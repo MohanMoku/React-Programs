@@ -48,7 +48,8 @@ export default function Prgm6() {
     }
 
     const handleChange = (e) => {
-        validateForm()
+        // validateForm()
+        console.log(e);
         const { name, value } = e.target
         setFormData({ ...formData, [name]: value })
     }

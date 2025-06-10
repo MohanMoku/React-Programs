@@ -13,10 +13,8 @@ const Prgm4 = () => {
     }
 
     const toggleTaskCompletion = (index) => {
-
         const updating = tasks.map((task, i) => i === index ? { ...task, isCompleted: !task.isCompleted } : task)
-        setTasks(updating);
-
+        setTasks(updating)
     }
 
     const deleteTask = (index) => {
