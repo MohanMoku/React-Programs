@@ -31,14 +31,14 @@ export default class UserList extends Component {
                     loading: false
                 })
                 console.log(data);
-                
+
             })
             .catch((error) => {
                 this.setState({ error: 'Failed to load Users', loading: false })
             })
-        
-            console.log(this.state);
-            
+
+        console.log(this.state);
+
     }
 
     filterUsers = () => {
@@ -58,7 +58,8 @@ export default class UserList extends Component {
 
     handleRefresh = () => {
         this.setState({ searchQuery: '' },
-            this.fetchUsers)
+            this.fetchUsers
+        )
     }
 
     render() {
@@ -81,7 +82,7 @@ export default class UserList extends Component {
                 </div1011>
 
                 {loading && <p>Loading...</p>}
-                {error && <p>error...</p>}
+                {error && <p>{error}</p>}
 
                 {
                     !loading && !error && users.length > 0 && (
@@ -90,7 +91,7 @@ export default class UserList extends Component {
                                 <tr>
                                     <th>Name</th>
                                     <th>Email</th>
-                                    <th>Phone</th>
+                                    <th>Location</th>
                                 </tr>
                             </thead>
 

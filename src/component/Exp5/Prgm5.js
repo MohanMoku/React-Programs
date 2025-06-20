@@ -25,7 +25,7 @@ export default function Prgm5() {
     };
 
     const removeFigure = (id) => {
-        setFigures(figures.filter((figure) => figure.id !== id));
+        setFigures(figures.filter((figure) => figure.id !== id))
     };
 
     return (

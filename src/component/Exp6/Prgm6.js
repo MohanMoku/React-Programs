@@ -49,12 +49,12 @@ export default function Prgm6() {
 
     const handleChange = (e) => {
         // validateForm()
-        console.log(e);
+        // console.log(e);
         const { name, value } = e.target
         setFormData({ ...formData, [name]: value })
     }
 
-    const togglepasswordVisibility = () => setShowPassword(!showPassword)
+    const togglePasswordVisibility = () => setShowPassword(!showPassword)
 
     return (
         <div6>
@@ -83,7 +83,7 @@ export default function Prgm6() {
                         <input type={showPassword ? 'text' : 'password'} name='password' value={formData.password} onChange={handleChange} placeholder='password' />
                     </div612>
                     {errors.password && <span className='error-text'>{errors.password}</span>}
-                    <span className='showPassword-button' onClick={togglepasswordVisibility}>{showPassword ? 'Hide' : 'Show'} password</span>
+                    <span className='showPassword-button' onClick={togglePasswordVisibility}>{showPassword ? 'Hide' : 'Show'} password</span>
                 </div61>
 
                 <button type='submit'>submit</button>
